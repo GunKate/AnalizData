@@ -27,3 +27,12 @@ print(mean_subject)
 
 median_subject = df.groupby('subject')['estimate'].median()
 print(median_subject)
+
+Q1_math = df[df['subject'] == 'mat']['estimate'].quantile(0.25)
+Q3_math = df[df['subject'] == 'mat']['estimate'].quantile(0.75)
+IQR = Q3_math - Q1_math
+
+std_subject = df.groupby('subject')['estimate'].std()
+
+print(IQR)
+print(std_subject)
