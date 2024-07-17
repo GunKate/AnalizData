@@ -16,13 +16,13 @@ driver.get(url)
 time.sleep(5)
 
 # Сбор данных о товарах
-items = driver.find_elements(By.CLASS_NAME, 'catalog-product')
+items = driver.find_elements(By.CLASS_NAME, 'wYUX2')
 
 data = []
 
 for item in items:
-    name = item.find_element(By.CLASS_NAME, 'catalog-product__name').text
-    price = item.find_element(By.CLASS_NAME, 'catalog-product__price').text
+    name = item.find_element(By.CLASS_NAME, 'ui-GPFV8 qUioe ProductName ActiveProduct').text
+    price = item.find_element(By.CLASS_NAME, 'ui-LD-ZU KIkOH').text
     data.append({
         'product': name,
         'price': price
