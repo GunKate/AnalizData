@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4f031a0-8379-472b-a635-92d7e9caecda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AD03_3_AD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AD03_3_goodData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AD03_3_pars.py" beforeDir="false" afterPath="$PROJECT_DIR$/AD03_3_pars.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AD03_3_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AD03_3_v2.py" afterDir="false" />
-    </list>
+    <list default="true" id="a4f031a0-8379-472b-a635-92d7e9caecda" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +36,7 @@
   "keyToString": {
     "Python.AD03_1.executor": "Run",
     "Python.AD03_2.executor": "Run",
+    "Python.AD03_3_AD.executor": "Run",
     "Python.AD03_3_goodData.executor": "Run",
     "Python.AD03_3_pars.executor": "Run",
     "Python.AD03_3_v2.executor": "Run",
